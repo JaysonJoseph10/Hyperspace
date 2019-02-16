@@ -1,13 +1,13 @@
 @import 'reset.css';
 
 @font-face {
-  font-family: fa-webfont;
-  src: url(fonts/fontawesome-webfont.woff2) format("WOFF2"),
+  font-family: 'fa-webfont';
+  src: url('fonts/fontawesome-webfont.woff2') format('WOFF2'),
        url('fonts/fontawesome-webfont.woff') format('WOFF'),
-       url('fonts/fontawesome-webfont.ttf') format('TrueType');
-       /* url('fonts/fontawesome.otf') format('OpenType'), */
-       /* url('fonts/fontawesome-webfont.svg') format('SVG'),
-       url('fonts/fontawesome-webfont.eot') format('SVG'); */
+       url('fonts/fontawesome-webfont.ttf') format('TrueType'),
+       url('fonts/fontawesome.otf') format('OpenType'),
+       url('fonts/fontawesome-webfont.svg') format('SVG'),
+       url('fonts/fontawesome-webfont.eot');
 }
 
 .sidenav-container {
@@ -24,6 +24,7 @@
   font-family: fa-webfont;
 }
 .sidenav-container nav.sidenav a {
+  font-size: 20px
   font-family: 'fa-webfont';
   text-decoration: none;
   display: block;
