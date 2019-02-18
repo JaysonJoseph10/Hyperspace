@@ -1,0 +1,78 @@
+@import 'reset.css';
+
+.sidenav-container {
+  // position: fixed;
+  float: left;
+  height: 100vh;
+  background-color: #312450;
+  width: 396px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  nav.sidenav {
+    text-align: right;
+    width: 288px;
+    a {
+      text-transform: uppercase;
+      font-size: 14.5px;
+      font-family: 'Source Sans Pro', sans-serif;
+      text-decoration: none;
+      display: block;
+      color: rgba(255, 255, 255, 0.35);
+      transition: .3s;
+      padding: 0 0 20px 0;
+      letter-spacing: 0.28rem;
+      position: relative;
+      margin-top: 59px;
+    }
+    a:first-of-type {
+      margin-top: 26px;
+    }
+    a:first-of-type::before,
+    a:last-of-type::before,
+    a:first-of-type::after,
+    a:last-of-type::after {
+      height: 2px;
+    }
+    a:hover::before {
+      opacity: 1;
+    }
+    a::before {
+      content: '';
+      width: 100%;
+      height: 3px;
+      background-image: linear-gradient(to right, #3c2c62, #3c2c62);
+      display: block;
+      transition: .3s;
+      z-index: 5;
+      opacity: 1;
+      position: absolute;
+      bottom: 0;
+      z-index: 1;
+    }
+    a:hover::after {
+      opacity: 0.75;
+    }
+    a::after {
+      content: '';
+      width: 100%;
+      height: 3px;
+      background-image: linear-gradient(to right, #5e42a6, #b74e91);
+      display: block;
+      transition: .3s;
+      z-index: 2;
+      opacity: 0;
+      position: absolute;
+      bottom: 0;
+    }
+  }
+}
+#main {
+  background-position: bottom;
+  background-size: 127%;
+  background-image: url('../imgs/intro.svg');
+  background-color: #5e42a6;
+  width: calc(100% - 396px);
+  height: 100vh;
+  float: left;
+}
