@@ -1,4 +1,7 @@
 @import url(reset.css);
+body {
+  overflow-x: hidden; }
+
 .sidenav-container {
   float: left;
   height: 100vh;
@@ -13,7 +16,7 @@
     .sidenav-container nav.sidenav a {
       text-transform: uppercase;
       font-size: 14.5px;
-      font-family: 'Source Sans Pro', sans-serif;
+      font-family: "Source Sans Pro", sans-serif;
       text-decoration: none;
       display: block;
       color: rgba(255, 255, 255, 0.35);
@@ -57,11 +60,57 @@
       position: absolute;
       bottom: 0; }
 
-#main {
-  background-position: bottom;
-  background-size: 127%;
+#container {
   background-image: url("../imgs/intro.svg");
+  background-attachment: fixed;
+  background-position: top right;
   background-color: #5e42a6;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   width: calc(100% - 396px);
   height: 100vh;
-  float: left; }
+  float: left;
+  overflow-y: scroll; }
+  #container #landing {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    #container #landing h1,
+    #container #landing p {
+      font-family: "Source Sans Pro", sans-serif;
+      padding: 0 0 55px 104px; }
+    #container #landing h1 {
+      font-size: 4.3rem;
+      font-weight: 600;
+      color: white; }
+    #container #landing p {
+      color: rgba(255, 255, 255, 0.35);
+      font-size: 30px;
+      max-width: 930px;
+      line-height: 1.5; }
+    #container #landing .learn-more {
+      padding: 0 0 55px 104px; }
+      #container #landing .learn-more a {
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+        transition: .3s;
+        border: solid 1px rgba(255, 255, 255, 0.15);
+        padding: 20px 40px;
+        text-transform: uppercase;
+        letter-spacing: 0.28rem;
+        border-radius: 30px;
+        max-width: 222px;
+        max-height: 64px;
+        font-size: 15px;
+        font-weight: 600; }
+      #container #landing .learn-more a:hover {
+        border: solid 1px rgba(255, 255, 255, 0.5); }
+      #container #landing .learn-more a:after {
+        content: '';
+        opacity: 1;
+        height: 100%;
+        background-image: #fff; }
+      #container #landing .learn-more a:hover::after {
+        opacity: 1; }
