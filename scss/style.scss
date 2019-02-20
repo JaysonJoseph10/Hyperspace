@@ -1,6 +1,13 @@
 @import 'reset.css';
 $font-stack: 'Source Sans Pro', sans-serif;
 
+@mixin transform($property) {
+  -webkit-transform: $property;
+  -ms-transform: $property;
+  transform: $property;
+}
+
+.box { @include transform(rotate(30deg)); }
 body {
    overflow-x: hidden;
 }
@@ -93,12 +100,14 @@ body {
       padding: 0 0 55px 104px;
     }
     h1 {
-      font-size: 4.3rem;
+      margin-top: 44px;
+      font-size: 4.2rem;
       font-weight: 600;
       color: white;
+      padding-bottom: 40px;
     }
     p {
-      color: rgba(255, 255, 255, 0.35);
+      color: rgba(255, 255, 255, 0.6);
       font-size: 30px;
       max-width: 930px;
       line-height: 1.5;
@@ -107,11 +116,12 @@ body {
       padding: 0 0 55px 104px;
       a {
         display: inline-block;
+        font-family: $font-stack;
         color: white;
         text-decoration: none;
-        transition: .3s;
+        transition: .2s;
         border: solid 1px rgba(255, 255, 255, 0.15);
-        padding: 20px 40px;
+        padding: 24px 44px;
         text-transform: uppercase;
         letter-spacing: 0.28rem;
         border-radius: 30px;
@@ -119,19 +129,28 @@ body {
         max-height: 64px;
         font-size: 15px;
         font-weight: 600;
+        position: relative;
       }
       a:hover {
         border: solid 1px rgba(255, 255, 255, 0.5);
       }
       a:after {
         content: '';
-        opacity: 1;
-        // width: 100%;
+        opacity: 0;
+        width: 100%;
         height: 100%;
-        background-image: #fff;
+        background-image: linear-gradient(to right, #fff, #fff);
+        top: 0;
+        left: 0;
+        position: absolute;
+        display: inline-block;
+        border-radius: 30px;
+        transition: .2s;
+        transform: scale(0.25);
       }
       a:hover::after {
-        opacity: 1
+        opacity: 0.06;
+        transform: scale(1);
       }
     }
   }
