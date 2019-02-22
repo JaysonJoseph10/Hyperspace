@@ -128,11 +128,13 @@ body {
         opacity: 0.06;
         transform: scale(1); }
   #container #who-we-are .sec {
-    background-color: #5052b5; }
+    background-color: #5052b5;
+    display: flex;
+    height: 495px; }
     #container #who-we-are .sec img {
       max-width: 550px;
-      width: 25em;
-      height: 450px;
+      width: 113%;
+      height: 100%;
       display: inline-block; }
   #container #who-we-are .part1 {
     background-color: #5052b5; }
@@ -141,11 +143,12 @@ body {
   #container #who-we-are .part3 {
     background-color: #484aa3; }
   #container #who-we-are .description {
-    display: inline-block; }
+    display: inline-block;
+    align-self: center; }
     #container #who-we-are .description h1,
     #container #who-we-are .description p {
       font-family: "Source Sans Pro", sans-serif;
-      padding: 0 0 55px 104px; }
+      padding: 0 0 55px 170px; }
     #container #who-we-are .description h1 {
       margin-top: 44px;
       font-size: 2.8rem;
@@ -158,7 +161,7 @@ body {
       max-width: 930px;
       line-height: 1.5; }
     #container #who-we-are .description .learn-more {
-      padding: 0 0 55px 104px; }
+      padding: 0 0 55px 170px; }
       #container #who-we-are .description .learn-more a {
         display: inline-block;
         font-family: "Source Sans Pro", sans-serif;

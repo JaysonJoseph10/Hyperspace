@@ -150,10 +150,12 @@ body {
   #who-we-are {
     .sec {
       background-color: #5052b5;
+      display: flex;
+      height: 495px;
       img {
         max-width: 550px;
-        width: 25em;
-        height: 450px;
+        width: 113%;
+        height: 100%;
         display: inline-block;
       }
     }
@@ -168,10 +170,11 @@ body {
     }
     .description {
       display: inline-block;
+      align-self: center;
       h1,
       p {
         font-family: $font-stack;
-        padding: 0 0 55px 104px;
+        padding: 0 0 55px 170px;
       }
       h1 {
         margin-top: 44px;
@@ -187,7 +190,7 @@ body {
         line-height: 1.5;
       }
       .learn-more {
-        padding: 0 0 55px 104px;
+        padding: 0 0 55px 170px;
         a {
           display: inline-block;
           font-family: $font-stack;
