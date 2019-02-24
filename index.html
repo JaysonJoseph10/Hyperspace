@@ -5,6 +5,7 @@
     <meta charset='UTF-8'>
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700" rel="stylesheet">
     <link rel='stylesheet' type='text/css' href='css/style.css'/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   </head>
   <body>
     <aside class='sidenav-container'>
@@ -162,25 +163,66 @@
           </p>
           <div class='form-address'>
             <form class='' action='index.html' method='post'>
-              <div class='form-row'>
-                <label for='name'>Name</label>
-                <input type='' name='name' id='name' value=''>
-              </div>
-              <div class='form-row'>
-                <label for='email'>Email</label>
-                <input type='' name='email' id='email' value=''>
+              <div class='form-group'>
+                <div class='form-row'>
+                  <label for='name'>Name</label>
+                  <input type='' name='name' id='name' value=''>
+                </div>
+                <div class='form-row'>
+                  <label for='email'>Email</label>
+                  <input type='' name='email' id='email' value=''>
+                </div>
               </div>
               <div class='form-row'>
                 <label for='message'>Message</label>
-                <textarea name='message' id='message' rows='8' cols='80'></textarea>
+                <textarea name='message' id='message' rows='' cols=''></textarea>
+              </div>
+              <div class='send-btn'>
+                <a href="#">Send message</a>
               </div>
             </form>
             <div class='address'>
-
+              <div class='group'>
+                <h3>Address</h3>
+                <p>
+                  12345 Somewhere Road #654
+                  Nashville, TN 00000-0000
+                  USA
+                </p>
+              </div>
+              <div class='group'>
+                <h3>Email</h3>
+                <a href='mailto:user@untitled.tld'>
+                  user@untitled.tld
+                </a>
+              </div>
+              <div class='group'>
+                <h3>Phone</h3>
+                <a href='tel:0000000000' class='phone'>
+                  (000) 000-0000
+                </a>
+              </div>
+              <div class='group'>
+                <h3>Social</h3>
+                <div class='social-icons'>
+                  <a href="#">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class='send-btn'>
-            <a href="#">Send message</a>
           </div>
         </div>
       </section>

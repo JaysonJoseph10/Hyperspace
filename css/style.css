@@ -281,10 +281,9 @@ body {
           opacity: 0.06;
           transform: scale(1); }
   #container #get-in-touch {
-    background-color: #5e42a6;
-    height: 950px; }
+    background-color: #5e42a6; }
     #container #get-in-touch .get-in-touch-container {
-      padding: 118px 110px;
+      padding: 118px 110px 65px;
       color: white;
       font-family: "Source Sans Pro", sans-serif; }
       #container #get-in-touch .get-in-touch-container h2 {
@@ -293,10 +292,10 @@ body {
       #container #get-in-touch .get-in-touch-container p {
         font-size: 23px;
         color: rgba(255, 255, 255, 0.55);
-        padding: 27px 0 46px;
+        padding: 27px 0 50px;
         line-height: 1.6; }
       #container #get-in-touch .get-in-touch-container .send-btn {
-        padding: 45px 0 0; }
+        padding: 0; }
         #container #get-in-touch .get-in-touch-container .send-btn a {
           display: inline-block;
           font-family: "Source Sans Pro", sans-serif;
@@ -304,9 +303,9 @@ body {
           text-decoration: none;
           transition: .2s;
           border: solid 1px rgba(255, 255, 255, 0.15);
-          padding: 24px 44px;
+          padding: 24px 55px;
           text-transform: uppercase;
-          letter-spacing: 0.28rem;
+          letter-spacing: 0.18rem;
           border-radius: 30px;
           max-width: 400px;
           max-height: 64px;
@@ -333,3 +332,80 @@ body {
           transform: scale(1); }
       #container #get-in-touch .get-in-touch-container .form-address {
         display: flex; }
+        #container #get-in-touch .get-in-touch-container .form-address form {
+          font-family: "Source Sans Pro", sans-serif;
+          padding-right: 53px; }
+          #container #get-in-touch .get-in-touch-container .form-address form .form-group {
+            display: flex; }
+            #container #get-in-touch .get-in-touch-container .form-address form .form-group .form-row {
+              width: 50%; }
+              #container #get-in-touch .get-in-touch-container .form-address form .form-group .form-row:first-of-type {
+                margin-right: 29px; }
+              #container #get-in-touch .get-in-touch-container .form-address form .form-group .form-row label {
+                display: block;
+                font-weight: 600;
+                font-size: 26px;
+                padding-bottom: 23px; }
+              #container #get-in-touch .get-in-touch-container .form-address form .form-group .form-row input {
+                width: 360px;
+                height: 60px;
+                border-radius: 5px;
+                background: rgba(255, 255, 255, 0.05);
+                color: rgba(255, 255, 255, 0.55);
+                padding: 22px;
+                font-size: 22px;
+                border: 1px solid rgba(255, 255, 255, 0.15); }
+                #container #get-in-touch .get-in-touch-container .form-address form .form-group .form-row input:focus {
+                  outline: none;
+                  border: 2px solid white; }
+          #container #get-in-touch .get-in-touch-container .form-address form .form-row {
+            margin-bottom: 38px; }
+            #container #get-in-touch .get-in-touch-container .form-address form .form-row label {
+              display: block;
+              font-weight: 600;
+              font-size: 26px;
+              padding-bottom: 23px; }
+            #container #get-in-touch .get-in-touch-container .form-address form .form-row textarea {
+              font-size: 22px;
+              background: rgba(255, 255, 255, 0.05);
+              color: rgba(255, 255, 255, 0.55);
+              resize: vertical;
+              width: 100%;
+              height: 226px;
+              padding: 25px;
+              border: 1px solid rgba(255, 255, 255, 0.15);
+              border-radius: 5px; }
+              #container #get-in-touch .get-in-touch-container .form-address form .form-row textarea:focus {
+                outline: none;
+                border: 2px solid white; }
+        #container #get-in-touch .get-in-touch-container .form-address .address {
+          border-left: 1px solid rgba(255, 255, 255, 0.15);
+          padding: 0 57px 50px; }
+          #container #get-in-touch .get-in-touch-container .form-address .address .group {
+            padding-bottom: 38px; }
+            #container #get-in-touch .get-in-touch-container .form-address .address .group .social-icons {
+              display: flex;
+              justify-content: space-between;
+              max-width: 182px; }
+            #container #get-in-touch .get-in-touch-container .form-address .address .group .social-icons a {
+              border: none; }
+            #container #get-in-touch .get-in-touch-container .form-address .address .group .social-icons a i {
+              font-size: 22px;
+              color: rgba(255, 255, 255, 0.55); }
+          #container #get-in-touch .get-in-touch-container .form-address .address .group h3 {
+            font-weight: 600;
+            font-size: 26px;
+            padding-bottom: 15px; }
+          #container #get-in-touch .get-in-touch-container .form-address .address .group p {
+            font-size: 24px;
+            max-width: 294px;
+            padding: 0; }
+          #container #get-in-touch .get-in-touch-container .form-address .address .group a {
+            font-size: 24px;
+            padding-top: 7px;
+            display: inline-block;
+            border-bottom: 1px dotted rgba(255, 255, 255, 0.25);
+            text-decoration: none;
+            color: rgba(255, 255, 255, 0.55); }
+            #container #get-in-touch .get-in-touch-container .form-address .address .group a.phone {
+              border: none; }
