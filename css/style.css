@@ -435,3 +435,9 @@ body {
           transition: .2s; }
           #container footer .footer-container span a:hover {
             color: white; }
+
+@media only screen and (max-width: 1680px) {
+  .sidenav-container {
+    width: 312px; }
+  #container {
+    width: calc(100% - 312px); } }
