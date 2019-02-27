@@ -13,6 +13,9 @@ body {
   .sidenav-container nav.sidenav {
     text-align: right;
     width: 288px; }
+    @media only screen and (max-width: 1680px) {
+      .sidenav-container nav.sidenav {
+        width: 220px; } }
     .sidenav-container nav.sidenav a {
       text-transform: uppercase;
       font-size: 14.5px;

@@ -1,11 +1,10 @@
 @import 'reset.css';
 $font-stack: 'Source Sans Pro', sans-serif;
-
+$bp-tablet: 'max-width: 1680px';
 body {
    overflow-x: hidden;
 }
 .sidenav-container {
-  // position: fixed;
   float: left;
   height: 100vh;
   background-color: #312450;
@@ -16,6 +15,9 @@ body {
   nav.sidenav {
     text-align: right;
     width: 288px;
+    @media only screen and ($bp-tablet) {
+      width: 220px;
+    }
     a {
       text-transform: uppercase;
       font-size: 14.5px;
