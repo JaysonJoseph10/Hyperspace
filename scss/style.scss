@@ -1,6 +1,6 @@
 @import 'reset.css';
 $font-stack: 'Source Sans Pro', sans-serif;
-$bp-tablet: 'max-width: 1680px';
+$bp-tablet: 'only screen and (max-width: 1680px)';
 body {
    overflow-x: hidden;
 }
@@ -15,7 +15,7 @@ body {
   nav.sidenav {
     text-align: right;
     width: 288px;
-    @media only screen and ($bp-tablet) {
+    @media #{$bp-tablet} {
       width: 220px;
     }
     a {
@@ -31,6 +31,10 @@ body {
       position: relative;
       margin-top: 59px;
       overflow: hidden;
+      @media #{$bp-tablet} {
+        margin-top: 42px;
+        font-size: 11.0px;
+      }
     }
     a:first-of-type {
       margin-top: 26px;
