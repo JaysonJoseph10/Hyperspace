@@ -158,6 +158,9 @@ body {
     background-color: #5052b5;
     display: flex;
     height: 495px; }
+    @media only screen and (max-width: 1680px) {
+      #container #who-we-are .sec {
+        height: 495px; } }
     #container #who-we-are .sec img {
       max-width: 550px;
       width: 113%;

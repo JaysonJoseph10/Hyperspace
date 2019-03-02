@@ -130,7 +130,7 @@ body {
     .learn-more {
       padding: 0 0 55px 104px;
       @media #{$bp-tablet} {
-        padding: 0 0 55px 70px; 
+        padding: 0 0 55px 70px;
       }
       a {
         display: inline-block;
@@ -177,6 +177,9 @@ body {
       background-color: #5052b5;
       display: flex;
       height: 495px;
+      @media #{$bp-tablet} {
+        height: 495px;
+      }
       img {
         max-width: 550px;
         width: 113%;
