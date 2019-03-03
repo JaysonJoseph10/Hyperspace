@@ -31,6 +31,21 @@ body {
       position: relative;
       margin-top: 59px;
       overflow: hidden;
+      // div {
+      //   width: 100%;
+      //   height: 3px;
+      //   background-image: linear-gradient(to right, #5e42a6, #b74e91);
+      //   display: block;
+      //   transition: .2s;
+      //   z-index: 2;
+      //   opacity: 0.75;
+      //   position: absolute;
+      //   bottom: 0;
+      //   transform: translate3d(288px,0,0);
+      // }
+      // &:hover div {
+      //   transform: translate3d(0,0,0);
+      // }
       @media #{$bp-tablet} {
         margin-top: 42px;
         font-size: 11.0px;
@@ -72,7 +87,7 @@ body {
       background-image: linear-gradient(to right, #5e42a6, #b74e91);
       display: block;
       transition: .2s;
-      z-index: 2;
+      z-index: 5;
       opacity: 0.75;
       position: absolute;
       bottom: 0;
@@ -185,6 +200,9 @@ body {
         width: 113%;
         height: 100%;
         display: inline-block;
+        @media #{$bp-tablet} {
+          width: 101%;
+        }
       }
     }
     .part1 {
@@ -267,15 +285,25 @@ body {
       padding: 118px 110px;
       color: white;
       font-family: $font-stack;
+      @media #{$bp-tablet} {
+        padding: 72px 70px;
+      }
       h2 {
         font-weight: 600;
         font-size: 43px;
+        @media #{$bp-tablet} {
+          font-size: 33px;
+        }
       }
       p {
         font-size: 23px;
         color: rgba(255, 255, 255, 0.55);
         padding: 27px 0 46px;
         line-height: 1.6;
+        @media #{$bp-tablet} {
+          padding: 23px 0 46px;
+          font-size: 19px;
+        }
       }
       .grid {
         display: grid;
