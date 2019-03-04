@@ -285,6 +285,7 @@ body {
       padding: 118px 110px;
       color: white;
       font-family: $font-stack;
+      border-radius: 2px;
       @media #{$bp-tablet} {
         padding: 72px 70px;
       }
