@@ -235,8 +235,7 @@ body {
     #container #what-we-do .what-we-do-container {
       padding: 118px 110px;
       color: white;
-      font-family: "Source Sans Pro", sans-serif;
-      border-radius: 2px; }
+      font-family: "Source Sans Pro", sans-serif; }
       @media only screen and (max-width: 1680px) {
         #container #what-we-do .what-we-do-container {
           padding: 72px 70px; } }
@@ -327,14 +326,24 @@ body {
       padding: 118px 110px 65px;
       color: white;
       font-family: "Source Sans Pro", sans-serif; }
+      @media only screen and (max-width: 1680px) {
+        #container #get-in-touch .get-in-touch-container {
+          padding: 72px 70px 65px; } }
       #container #get-in-touch .get-in-touch-container h2 {
         font-weight: 600;
         font-size: 43px; }
+        @media only screen and (max-width: 1680px) {
+          #container #get-in-touch .get-in-touch-container h2 {
+            font-size: 33px; } }
       #container #get-in-touch .get-in-touch-container p {
         font-size: 23px;
         color: rgba(255, 255, 255, 0.55);
         padding: 27px 0 50px;
         line-height: 1.6; }
+        @media only screen and (max-width: 1680px) {
+          #container #get-in-touch .get-in-touch-container p {
+            padding: 23px 0 46px;
+            font-size: 19px; } }
       #container #get-in-touch .get-in-touch-container .send-btn {
         padding: 0; }
         #container #get-in-touch .get-in-touch-container .send-btn a {

@@ -285,7 +285,6 @@ body {
       padding: 118px 110px;
       color: white;
       font-family: $font-stack;
-      border-radius: 2px;
       @media #{$bp-tablet} {
         padding: 72px 70px;
       }
@@ -395,15 +394,25 @@ body {
       padding: 118px 110px 65px;
       color: white;
       font-family: $font-stack;
+      @media #{$bp-tablet} {
+        padding: 72px 70px 65px;
+      }
       h2 {
         font-weight: 600;
         font-size: 43px;
+        @media #{$bp-tablet} {
+          font-size: 33px;
+        }
       }
       p {
         font-size: 23px;
         color: rgba(255, 255, 255, 0.55);
         padding: 27px 0 50px;
         line-height: 1.6;
+        @media #{$bp-tablet} {
+          padding: 23px 0 46px;
+          font-size: 19px;
+        }
       }
       .send-btn {
         padding: 0;
