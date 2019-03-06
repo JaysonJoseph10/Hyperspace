@@ -561,6 +561,9 @@ body {
   footer {
     height: 242px;
     background-color: #493382;
+    @media #{bp-tablet} {
+      height: 155px;
+    }
     .footer-container {
       padding-left: 109px;
       font-family: $font-stack;
@@ -568,11 +571,18 @@ body {
       display: flex;
       align-items: center;
       color: rgba(255, 255, 255, 0.15);
+      @media #{bp-tablet} {
+        padding-left: 70px;
+      }
       span {
         padding-left: 28px;
         margin-right: 22px;
         font-size: 19px;
         border-left: 1px solid rgba(255, 255, 255, 0.15);
+        @media #{bp-tablet} {
+          font-size: 15px;
+          margin-right: 18px;
+        }
         &:first-of-type {
           border: none;
           padding: 0;
