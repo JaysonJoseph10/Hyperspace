@@ -109,7 +109,9 @@ body {
       padding-bottom: 40px; }
       @media only screen and (max-width: 1680px) {
         #container #landing h1 {
-          font-size: 3.2rem; } }
+          font-size: 3.3rem;
+          padding-bottom: 37px;
+          padding-top: 19px; } }
     #container #landing p {
       color: rgba(255, 255, 255, 0.6);
       font-size: 30px;
@@ -117,7 +119,10 @@ body {
       line-height: 1.5; }
       @media only screen and (max-width: 1680px) {
         #container #landing p {
-          font-size: 23px; } }
+          font-size: 23px;
+          max-width: 720px;
+          padding: 0px 0 46px 70px;
+          line-height: 1.6; } }
     #container #landing .learn-more {
       padding: 0 0 55px 104px; }
       @media only screen and (max-width: 1680px) {
@@ -139,6 +144,11 @@ body {
         font-size: 15px;
         font-weight: 600;
         position: relative; }
+        @media only screen and (max-width: 1680px) {
+          #container #landing .learn-more a {
+            padding: 18px 39px;
+            font-size: 12px;
+            letter-spacing: 0.18rem; } }
       #container #landing .learn-more a:hover {
         border: solid 1px rgba(255, 255, 255, 0.5); }
       #container #landing .learn-more a:after {
@@ -163,21 +173,36 @@ body {
     height: 495px; }
     @media only screen and (max-width: 1680px) {
       #container #who-we-are .sec {
-        height: 495px; } }
+        height: 390px; } }
+    #container #who-we-are .sec a.image-link {
+      width: 433px;
+      background-repeat: no-repeat;
+      background-position: center center;
+      display: block;
+      height: 100%;
+      background-size: cover; }
     #container #who-we-are .sec img {
       max-width: 550px;
       width: 113%;
       height: 100%;
-      display: inline-block; }
+      display: none; }
       @media only screen and (max-width: 1680px) {
         #container #who-we-are .sec img {
           width: 101%; } }
   #container #who-we-are .part1 {
     background-color: #5052b5; }
+    #container #who-we-are .part1 a.image-link {
+      background-image: url("https://html5up.net/uploads/demos/hyperspace/images/pic01.jpg"); }
   #container #who-we-are .part2 {
     background-color: #4c4eac; }
+    #container #who-we-are .part2 a.image-link {
+      background-image: url("https://html5up.net/uploads/demos/hyperspace/images/pic02.jpg");
+      background-position: top center; }
   #container #who-we-are .part3 {
     background-color: #484aa3; }
+    #container #who-we-are .part3 a.image-link {
+      background-image: url("https://html5up.net/uploads/demos/hyperspace/images/pic03.jpg");
+      background-position: 0px 26%; }
   #container #who-we-are .description {
     display: inline-block;
     align-self: center; }
@@ -191,13 +216,27 @@ body {
       font-weight: 600;
       color: white;
       padding-bottom: 24px; }
+      @media only screen and (max-width: 1680px) {
+        #container #who-we-are .description h1 {
+          padding: 0 0 21px 70px;
+          margin-top: 60px;
+          font-size: 2.1rem; } }
     #container #who-we-are .description p {
       color: rgba(255, 255, 255, 0.6);
       font-size: 24px;
       max-width: 956px;
       line-height: 1.5; }
+      @media only screen and (max-width: 1680px) {
+        #container #who-we-are .description p {
+          padding: 0 0 34px 70px;
+          font-size: 18px;
+          max-width: 822px;
+          line-height: 1.7; } }
     #container #who-we-are .description .learn-more {
       padding: 0 0 55px 170px; }
+      @media only screen and (max-width: 1680px) {
+        #container #who-we-are .description .learn-more {
+          padding: 0 0 55px 70px; } }
       #container #who-we-are .description .learn-more a {
         display: inline-block;
         font-family: "Source Sans Pro", sans-serif;
@@ -214,6 +253,11 @@ body {
         font-size: 15px;
         font-weight: 600;
         position: relative; }
+        @media only screen and (max-width: 1680px) {
+          #container #who-we-are .description .learn-more a {
+            padding: 18px 39px;
+            font-size: 12px;
+            letter-spacing: 0.18rem; } }
       #container #who-we-are .description .learn-more a:hover {
         border: solid 1px rgba(255, 255, 255, 0.5); }
       #container #who-we-are .description .learn-more a:after {
