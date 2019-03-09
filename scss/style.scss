@@ -396,20 +396,34 @@ body {
           }
           .right {
             padding-left: 32px;
+            @media #{$bp-tablet} {
+              padding-left: 28px;
+            }
             h3 {
               padding-top: 12px;
               font-weight: 600;
               font-size: 27px;
+              @media #{$bp-tablet} {
+                font-size: 21px;
+              }
             }
             p {
               max-width: 375px;
               padding: 18px 0;
+              @media #{$bp-tablet} {
+                font-size: 21px;
+                padding: 14px 0 18px;
+                max-width: 400px;
+              }
             }
           }
         }
       }
       .learn-more {
         padding: 45px 0 0;
+        @media #{$bp-tablet} {
+          padding: 36px 0 0;          
+        }
         a {
           display: inline-block;
           font-family: $font-stack;
@@ -426,6 +440,11 @@ body {
           font-size: 15px;
           font-weight: 600;
           position: relative;
+          @media #{$bp-tablet} {
+            padding: 18px 39px;
+            font-size: 12px;
+            letter-spacing: 0.18rem;
+          }
         }
         a:hover {
           border: solid 1px rgba(255, 255, 255, 0.5);

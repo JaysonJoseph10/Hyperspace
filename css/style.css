@@ -335,15 +335,29 @@ body {
                 height: 44px; } }
           #container #what-we-do .what-we-do-container .grid .box .right {
             padding-left: 32px; }
+            @media only screen and (max-width: 1680px) {
+              #container #what-we-do .what-we-do-container .grid .box .right {
+                padding-left: 28px; } }
             #container #what-we-do .what-we-do-container .grid .box .right h3 {
               padding-top: 12px;
               font-weight: 600;
               font-size: 27px; }
+              @media only screen and (max-width: 1680px) {
+                #container #what-we-do .what-we-do-container .grid .box .right h3 {
+                  font-size: 21px; } }
             #container #what-we-do .what-we-do-container .grid .box .right p {
               max-width: 375px;
               padding: 18px 0; }
+              @media only screen and (max-width: 1680px) {
+                #container #what-we-do .what-we-do-container .grid .box .right p {
+                  font-size: 21px;
+                  padding: 14px 0 18px;
+                  max-width: 400px; } }
       #container #what-we-do .what-we-do-container .learn-more {
         padding: 45px 0 0; }
+        @media only screen and (max-width: 1680px) {
+          #container #what-we-do .what-we-do-container .learn-more {
+            padding: 36px 0 0; } }
         #container #what-we-do .what-we-do-container .learn-more a {
           display: inline-block;
           font-family: "Source Sans Pro", sans-serif;
@@ -360,6 +374,11 @@ body {
           font-size: 15px;
           font-weight: 600;
           position: relative; }
+          @media only screen and (max-width: 1680px) {
+            #container #what-we-do .what-we-do-container .learn-more a {
+              padding: 18px 39px;
+              font-size: 12px;
+              letter-spacing: 0.18rem; } }
         #container #what-we-do .what-we-do-container .learn-more a:hover {
           border: solid 1px rgba(255, 255, 255, 0.5); }
         #container #what-we-do .what-we-do-container .learn-more a:after {
