@@ -299,7 +299,7 @@ body {
         line-height: 1.6; }
         @media only screen and (max-width: 1680px) {
           #container #what-we-do .what-we-do-container p {
-            padding: 23px 0 46px;
+            padding: 23px 0 36px;
             font-size: 19px; } }
       #container #what-we-do .what-we-do-container .grid {
         display: grid;
@@ -309,6 +309,10 @@ body {
         border: 1px solid rgba(255, 255, 255, 0.15);
         height: 920px;
         background-color: rgba(255, 255, 255, 0.05); }
+        @media only screen and (max-width: 1680px) {
+          #container #what-we-do .what-we-do-container .grid {
+            max-width: 1161px;
+            max-height: 724px; } }
         #container #what-we-do .what-we-do-container .grid .box:nth-child(even) {
           border-left: 1px solid rgba(255, 255, 255, 0.15);
           border-bottom: 1px solid rgba(255, 255, 255, 0.15); }
@@ -317,11 +321,18 @@ body {
         #container #what-we-do .what-we-do-container .grid .box {
           display: flex;
           padding: 67px; }
+          @media only screen and (max-width: 1680px) {
+            #container #what-we-do .what-we-do-container .grid .box {
+              padding: 51px; } }
           #container #what-we-do .what-we-do-container .grid .box .left .icon {
             width: 54px;
             height: 54px;
             border-radius: 50%;
             background-color: white; }
+            @media only screen and (max-width: 1680px) {
+              #container #what-we-do .what-we-do-container .grid .box .left .icon {
+                width: 44px;
+                height: 44px; } }
           #container #what-we-do .what-we-do-container .grid .box .right {
             padding-left: 32px; }
             #container #what-we-do .what-we-do-container .grid .box .right h3 {

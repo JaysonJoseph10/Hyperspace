@@ -353,7 +353,7 @@ body {
         padding: 27px 0 46px;
         line-height: 1.6;
         @media #{$bp-tablet} {
-          padding: 23px 0 46px;
+          padding: 23px 0 36px;
           font-size: 19px;
         }
       }
@@ -365,6 +365,10 @@ body {
         border: 1px solid rgba(255, 255, 255, 0.15);
         height: 920px;
         background-color: rgba(255, 255, 255, 0.05);
+        @media #{$bp-tablet} {
+          max-width: 1161px;
+          max-height: 724px;
+        }
         .box:nth-child(even) {
           border-left: 1px solid rgba(255, 255, 255, 0.15);
           border-bottom: 1px solid rgba(255, 255, 255, 0.15);
@@ -375,12 +379,19 @@ body {
         .box {
           display: flex;
           padding: 67px;
+          @media #{$bp-tablet} {
+            padding: 51px;
+          }
           .left {
             .icon {
               width: 54px;
               height: 54px;
               border-radius: 50%;
               background-color: white;
+              @media #{$bp-tablet} {
+                width: 44px;
+                height: 44px;
+              }
             }
           }
           .right {
