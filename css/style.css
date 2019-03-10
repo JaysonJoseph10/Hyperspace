@@ -419,7 +419,7 @@ body {
         line-height: 1.6; }
         @media only screen and (max-width: 1680px) {
           #container #get-in-touch .get-in-touch-container p {
-            padding: 23px 0 46px;
+            padding: 23px 0 39px;
             font-size: 19px; } }
       #container #get-in-touch .get-in-touch-container .send-btn {
         padding: 0; }
@@ -439,6 +439,11 @@ body {
           font-size: 15px;
           font-weight: 600;
           position: relative; }
+          @media only screen and (max-width: 1680px) {
+            #container #get-in-touch .get-in-touch-container .send-btn a {
+              padding: 18px 39px;
+              font-size: 12px;
+              letter-spacing: 0.18rem; } }
         #container #get-in-touch .get-in-touch-container .send-btn a:hover {
           border: solid 1px rgba(255, 255, 255, 0.5); }
         #container #get-in-touch .get-in-touch-container .send-btn a:after {
@@ -462,18 +467,34 @@ body {
         #container #get-in-touch .get-in-touch-container .form-address form {
           font-family: "Source Sans Pro", sans-serif;
           padding-right: 53px; }
+          @media only screen and (max-width: 1680px) {
+            #container #get-in-touch .get-in-touch-container .form-address form {
+              padding-right: 35px; } }
           #container #get-in-touch .get-in-touch-container .form-address form .form-group {
             display: flex; }
             #container #get-in-touch .get-in-touch-container .form-address form .form-group .form-row {
               width: 50%; }
+              @media only screen and (max-width: 1680px) {
+                #container #get-in-touch .get-in-touch-container .form-address form .form-group .form-row {
+                  margin-bottom: 27px; } }
               #container #get-in-touch .get-in-touch-container .form-address form .form-group .form-row:first-of-type {
                 margin-right: 29px; }
+                @media only screen and (max-width: 1680px) {
+                  #container #get-in-touch .get-in-touch-container .form-address form .form-group .form-row:first-of-type {
+                    margin-right: 27px; } }
               #container #get-in-touch .get-in-touch-container .form-address form .form-group .form-row label {
+                font-family: "Source Sans Pro", sans-serif;
                 display: block;
                 font-weight: 600;
                 font-size: 26px;
                 padding-bottom: 23px; }
+                @media only screen and (max-width: 1680px) {
+                  #container #get-in-touch .get-in-touch-container .form-address form .form-group .form-row label {
+                    font-weight: 900;
+                    font-size: 21px;
+                    padding-bottom: 20px; } }
               #container #get-in-touch .get-in-touch-container .form-address form .form-group .form-row input {
+                font-family: "Source Sans Pro", sans-serif;
                 width: 360px;
                 height: 60px;
                 border-radius: 5px;
@@ -482,17 +503,33 @@ body {
                 padding: 22px;
                 font-size: 22px;
                 border: 1px solid rgba(255, 255, 255, 0.15); }
+                @media only screen and (max-width: 1680px) {
+                  #container #get-in-touch .get-in-touch-container .form-address form .form-group .form-row input {
+                    width: 338px;
+                    height: 47px;
+                    font-size: 17px;
+                    padding: 18px; } }
                 #container #get-in-touch .get-in-touch-container .form-address form .form-group .form-row input:focus {
                   outline: none;
                   border: 2px solid white; }
           #container #get-in-touch .get-in-touch-container .form-address form .form-row {
             margin-bottom: 38px; }
+            @media only screen and (max-width: 1680px) {
+              #container #get-in-touch .get-in-touch-container .form-address form .form-row {
+                margin-bottom: 32px; } }
             #container #get-in-touch .get-in-touch-container .form-address form .form-row label {
               display: block;
+              font-family: "Source Sans Pro", sans-serif;
               font-weight: 600;
               font-size: 26px;
               padding-bottom: 23px; }
+              @media only screen and (max-width: 1680px) {
+                #container #get-in-touch .get-in-touch-container .form-address form .form-row label {
+                  font-weight: 900;
+                  font-size: 21px;
+                  padding-bottom: 18px; } }
             #container #get-in-touch .get-in-touch-container .form-address form .form-row textarea {
+              font-family: "Source Sans Pro", sans-serif;
               font-size: 22px;
               background: rgba(255, 255, 255, 0.05);
               color: rgba(255, 255, 255, 0.55);
@@ -502,31 +539,62 @@ body {
               padding: 25px;
               border: 1px solid rgba(255, 255, 255, 0.15);
               border-radius: 5px; }
+              @media only screen and (max-width: 1680px) {
+                #container #get-in-touch .get-in-touch-container .form-address form .form-row textarea {
+                  height: 178px;
+                  font-size: 17px;
+                  padding: 18px; } }
               #container #get-in-touch .get-in-touch-container .form-address form .form-row textarea:focus {
                 outline: none;
                 border: 2px solid white; }
         #container #get-in-touch .get-in-touch-container .form-address .address {
           border-left: 1px solid rgba(255, 255, 255, 0.15);
           padding: 0 57px 50px; }
+          @media only screen and (max-width: 1680px) {
+            #container #get-in-touch .get-in-touch-container .form-address .address {
+              padding: 0px 32px 0; } }
           #container #get-in-touch .get-in-touch-container .form-address .address .group {
             padding-bottom: 38px; }
+            @media only screen and (max-width: 1680px) {
+              #container #get-in-touch .get-in-touch-container .form-address .address .group {
+                padding-bottom: 28px; } }
+            @media only screen and (max-width: 1680px) {
+              #container #get-in-touch .get-in-touch-container .form-address .address .group:nth-of-type(2) a {
+                font-size: 18px; } }
             #container #get-in-touch .get-in-touch-container .form-address .address .group .social-icons {
               display: flex;
               justify-content: space-between;
               max-width: 182px; }
+              @media only screen and (max-width: 1680px) {
+                #container #get-in-touch .get-in-touch-container .form-address .address .group .social-icons {
+                  max-width: 140px; } }
             #container #get-in-touch .get-in-touch-container .form-address .address .group .social-icons a {
               border: none; }
+              @media only screen and (max-width: 1680px) {
+                #container #get-in-touch .get-in-touch-container .form-address .address .group .social-icons a {
+                  padding-top: 2px; } }
             #container #get-in-touch .get-in-touch-container .form-address .address .group .social-icons a i {
               font-size: 22px;
               color: rgba(255, 255, 255, 0.55); }
+              @media only screen and (max-width: 1680px) {
+                #container #get-in-touch .get-in-touch-container .form-address .address .group .social-icons a i {
+                  font-size: 16px; } }
           #container #get-in-touch .get-in-touch-container .form-address .address .group h3 {
             font-weight: 600;
             font-size: 26px;
             padding-bottom: 15px; }
+            @media only screen and (max-width: 1680px) {
+              #container #get-in-touch .get-in-touch-container .form-address .address .group h3 {
+                font-weight: 700;
+                font-size: 21px; } }
           #container #get-in-touch .get-in-touch-container .form-address .address .group p {
             font-size: 24px;
             max-width: 294px;
             padding: 0; }
+            @media only screen and (max-width: 1680px) {
+              #container #get-in-touch .get-in-touch-container .form-address .address .group p {
+                padding-right: 60px;
+                font-size: 19px; } }
           #container #get-in-touch .get-in-touch-container .form-address .address .group a {
             font-size: 24px;
             padding-top: 7px;
@@ -534,12 +602,15 @@ body {
             border-bottom: 1px dotted rgba(255, 255, 255, 0.25);
             text-decoration: none;
             color: rgba(255, 255, 255, 0.55); }
+            @media only screen and (max-width: 1680px) {
+              #container #get-in-touch .get-in-touch-container .form-address .address .group a {
+                font-size: 19px; } }
             #container #get-in-touch .get-in-touch-container .form-address .address .group a.phone {
               border: none; }
   #container footer {
     height: 242px;
     background-color: #493382; }
-    @media bp-tablet {
+    @media only screen and (max-width: 1680px) {
       #container footer {
         height: 155px; } }
     #container footer .footer-container {
@@ -549,7 +620,7 @@ body {
       display: flex;
       align-items: center;
       color: rgba(255, 255, 255, 0.15); }
-      @media bp-tablet {
+      @media only screen and (max-width: 1680px) {
         #container footer .footer-container {
           padding-left: 70px; } }
       #container footer .footer-container span {
@@ -557,7 +628,7 @@ body {
         margin-right: 22px;
         font-size: 19px;
         border-left: 1px solid rgba(255, 255, 255, 0.15); }
-        @media bp-tablet {
+        @media only screen and (max-width: 1680px) {
           #container footer .footer-container span {
             font-size: 15px;
             margin-right: 18px; } }

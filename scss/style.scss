@@ -422,7 +422,7 @@ body {
       .learn-more {
         padding: 45px 0 0;
         @media #{$bp-tablet} {
-          padding: 36px 0 0;          
+          padding: 36px 0 0;
         }
         a {
           display: inline-block;
@@ -492,7 +492,7 @@ body {
         padding: 27px 0 50px;
         line-height: 1.6;
         @media #{$bp-tablet} {
-          padding: 23px 0 46px;
+          padding: 23px 0 39px;
           font-size: 19px;
         }
       }
@@ -514,6 +514,11 @@ body {
           font-size: 15px;
           font-weight: 600;
           position: relative;
+          @media #{$bp-tablet} {
+            padding: 18px 39px;
+            font-size: 12px;
+            letter-spacing: 0.18rem;
+          }
         }
         a:hover {
           border: solid 1px rgba(255, 255, 255, 0.5);
@@ -542,20 +547,36 @@ body {
         form {
           font-family: $font-stack;
           padding-right: 53px;
+          @media #{$bp-tablet} {
+            padding-right: 35px;
+          }
           .form-group {
             display: flex;
             .form-row {
               width: 50%;
+              @media #{$bp-tablet} {
+                margin-bottom: 27px;
+              }
               &:first-of-type {
                 margin-right: 29px;
+                @media #{$bp-tablet} {
+                  margin-right: 27px;
+                }
               }
               label {
+                font-family: $font-stack;
                 display: block;
                 font-weight: 600;
                 font-size: 26px;
                 padding-bottom: 23px;
+                @media #{$bp-tablet} {
+                  font-weight: 900;
+                  font-size: 21px;
+                  padding-bottom: 20px;
+                }
               }
               input {
+                font-family: $font-stack;
                 width: 360px;
                 height: 60px;
                 border-radius: 5px;
@@ -564,6 +585,12 @@ body {
                 padding: 22px;
                 font-size: 22px;
                 border: 1px solid rgba(255, 255, 255, 0.15);
+                @media #{$bp-tablet} {
+                  width: 338px;
+                  height: 47px;
+                  font-size: 17px;
+                  padding: 18px;
+                }
                 &:focus {
                   outline: none;
                   border: 2px solid white;
@@ -573,13 +600,23 @@ body {
           }
           .form-row {
             margin-bottom: 38px;
+            @media #{$bp-tablet} {
+              margin-bottom: 32px;
+            }
             label {
               display: block;
+              font-family: $font-stack;
               font-weight: 600;
               font-size: 26px;
               padding-bottom: 23px;
+              @media #{$bp-tablet} {
+                font-weight: 900;
+                font-size: 21px;
+                padding-bottom: 18px;
+              }
             }
             textarea {
+              font-family: $font-stack;
               font-size: 22px;
               background: rgba(255, 255, 255, 0.05);
               color: rgba(255, 255, 255, 0.55);
@@ -590,6 +627,11 @@ body {
               padding: 25px;
               border: 1px solid rgba(255, 255, 255, 0.15);
               border-radius: 5px;
+              @media #{$bp-tablet} {
+                height: 178px;
+                font-size: 17px;
+                padding: 18px;
+              }
               &:focus {
                 outline: none;
                 border: 2px solid white;
@@ -600,30 +642,60 @@ body {
         .address {
           border-left: 1px solid rgba(255, 255, 255, 0.15);
           padding: 0 57px 50px;
+          @media #{$bp-tablet} {
+            padding: 0px 32px 0;
+          }
           .group {
             padding-bottom: 38px;
+            @media #{$bp-tablet} {
+              padding-bottom: 28px;
+            }
+            &:nth-of-type(2) {
+              @media #{$bp-tablet} {
+                a {
+                  font-size: 18px;
+                }
+              }
+            }
             .social-icons {
               display: flex;
               justify-content: space-between;
               max-width: 182px;
+              @media #{$bp-tablet} {
+                max-width: 140px;
+              }
             }
             .social-icons a  {
               border: none;
+              @media #{$bp-tablet} {
+                padding-top: 2px;
+              }
             }
             .social-icons a i {
               font-size: 22px;
               color: rgba(255, 255, 255, 0.55);
+              @media #{$bp-tablet} {
+                font-size: 16px;
+              }
             }
           }
           .group h3 {
             font-weight: 600;
             font-size: 26px;
             padding-bottom: 15px;
+            @media #{$bp-tablet} {
+              font-weight: 700;
+              font-size: 21px;
+            }
           }
           .group p {
             font-size: 24px;
             max-width: 294px;
             padding: 0;
+            @media #{$bp-tablet} {
+              padding-right: 60px;
+              font-size: 19px;
+            }
           }
           .group a {
             font-size: 24px;
@@ -632,6 +704,9 @@ body {
             border-bottom: 1px dotted rgba(255, 255, 255, 0.25);
             text-decoration: none;
             color: rgba(255, 255, 255, 0.55);
+            @media #{$bp-tablet} {
+              font-size: 19px;
+            }
             &.phone {
               border: none;
             }
@@ -643,7 +718,7 @@ body {
   footer {
     height: 242px;
     background-color: #493382;
-    @media #{bp-tablet} {
+    @media #{$bp-tablet} {
       height: 155px;
     }
     .footer-container {
@@ -653,7 +728,7 @@ body {
       display: flex;
       align-items: center;
       color: rgba(255, 255, 255, 0.15);
-      @media #{bp-tablet} {
+      @media #{$bp-tablet} {
         padding-left: 70px;
       }
       span {
@@ -661,7 +736,7 @@ body {
         margin-right: 22px;
         font-size: 19px;
         border-left: 1px solid rgba(255, 255, 255, 0.15);
-        @media #{bp-tablet} {
+        @media #{$bp-tablet} {
           font-size: 15px;
           margin-right: 18px;
         }
