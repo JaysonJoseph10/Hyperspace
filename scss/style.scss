@@ -766,3 +766,26 @@ body {
     width: calc(100% - 312px);
   }
 }
+@media only screen and (max-width: 1280px) {
+  .sidenav-container {
+    float: unset;
+    max-height: 56px;
+    width: 100%;
+    .sidenav {
+      display: flex;
+      width: 28%;
+      padding: 22px 0 0;
+      a:first-of-type{
+        padding: 23px 0 0;
+      }
+      a {
+        margin: 0;
+        padding: 23px 0 0;
+      }
+    }
+  }
+  #container {
+    width: 100%;
+    overflow: unset;
+  }
+}
