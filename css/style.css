@@ -661,16 +661,36 @@ body {
       display: flex;
       justify-content: space-around;
       width: 36.8%;
-      padding: 22px 0 0;
       padding: 0;
       height: 100%; }
       .sidenav-container nav.sidenav a:first-of-type {
         margin: 0; }
+      .sidenav-container nav.sidenav a:first-of-type::after,
+      .sidenav-container nav.sidenav a:last-of-type::after,
+      .sidenav-container nav.sidenav a:first-of-type::before,
+      .sidenav-container nav.sidenav a:last-of-type::before {
+        height: 3px; }
       .sidenav-container nav.sidenav a {
         padding: 0 0 23px 0;
         margin: 0;
         letter-spacing: 0.14rem;
         font-weight: 600; }
+      .sidenav-container nav.sidenav a::after {
+        background-image: linear-gradient(to right, #b74e91, #b74e91); }
   #container {
     width: 100%;
-    overflow: unset; } }
+    overflow: unset; }
+    #container #landing h1 {
+      padding: 0px 0 32px 62px;
+      font-size: 3rem; }
+    #container #landing p {
+      padding: 0px 0 46px 62px;
+      font-size: 21px;
+      font-weight: 100;
+      max-width: 670px; }
+    #container #landing .learn-more {
+      padding: 0px 0 55px 62px; }
+      #container #landing .learn-more a {
+        letter-spacing: 0.15rem;
+        font-size: 11px;
+        padding: 17px 37.5px; } }
