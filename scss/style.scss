@@ -1,9 +1,12 @@
 @import 'reset.css';
+
 $font-stack: 'Source Sans Pro', sans-serif;
 $bp-tablet: 'only screen and (max-width: 1680px)';
+
 body {
    overflow-x: hidden;
 }
+
 .sidenav-container {
   float: left;
   height: 100vh;
@@ -787,13 +790,16 @@ body {
   #container {
     width: 100%;
     overflow: unset;
+    background-attachment: initial;
     #landing {
+      max-height: 915px;
       h1 {
         padding: 0px 0 32px 62px;
         font-size: 3rem;
+        margin-top: 53px;
       }
       p {
-        padding: 0px 0 46px 62px;
+        padding: 0px 0 40px 62px;
         font-size: 21px;
         font-weight: 100;
         max-width: 670px;
@@ -804,7 +810,7 @@ body {
           letter-spacing: 0.15rem;
           font-size: 11px;
           padding: 17px 37.5px;
-          
+
         }
       }
     }

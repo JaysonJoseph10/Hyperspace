@@ -679,18 +679,22 @@ body {
         background-image: linear-gradient(to right, #b74e91, #b74e91); }
   #container {
     width: 100%;
-    overflow: unset; }
-    #container #landing h1 {
-      padding: 0px 0 32px 62px;
-      font-size: 3rem; }
-    #container #landing p {
-      padding: 0px 0 46px 62px;
-      font-size: 21px;
-      font-weight: 100;
-      max-width: 670px; }
-    #container #landing .learn-more {
-      padding: 0px 0 55px 62px; }
-      #container #landing .learn-more a {
-        letter-spacing: 0.15rem;
-        font-size: 11px;
-        padding: 17px 37.5px; } }
+    overflow: unset;
+    background-attachment: initial; }
+    #container #landing {
+      max-height: 915px; }
+      #container #landing h1 {
+        padding: 0px 0 32px 62px;
+        font-size: 3rem;
+        margin-top: 53px; }
+      #container #landing p {
+        padding: 0px 0 40px 62px;
+        font-size: 21px;
+        font-weight: 100;
+        max-width: 670px; }
+      #container #landing .learn-more {
+        padding: 0px 0 55px 62px; }
+        #container #landing .learn-more a {
+          letter-spacing: 0.15rem;
+          font-size: 11px;
+          padding: 17px 37.5px; } }
