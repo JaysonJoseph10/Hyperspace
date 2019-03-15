@@ -761,6 +761,8 @@ body {
     width: 100%;
     height: 56px;
     padding-top: 22px;
+    position: fixed;
+    z-index: 1;
     nav.sidenav {
       display: flex;
       justify-content: space-around;
@@ -791,6 +793,8 @@ body {
     width: 100%;
     overflow: unset;
     background-attachment: initial;
+    position: relative;
+    top: 56px;
     #landing {
       max-height: 915px;
       h1 {
@@ -811,6 +815,28 @@ body {
           font-size: 11px;
           padding: 17px 37.5px;
 
+        }
+      }
+    }
+    #who-we-are {
+      .sec {
+        height: 360px;
+        a.image-link {
+          width: 401px;
+        }
+        .description {
+          h1 {
+            padding: 0 0 21px 63px;
+            font-size: 1.99rem;
+          }
+          p {
+            padding: 0 0 34px 63px;
+            max-width: 778px;
+            font-size: 17px;
+          }
+          .learn-more {
+            padding: 0 0 55px 63px;
+          }
         }
       }
     }

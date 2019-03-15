@@ -656,7 +656,9 @@ body {
     max-height: 56px;
     width: 100%;
     height: 56px;
-    padding-top: 22px; }
+    padding-top: 22px;
+    position: fixed;
+    z-index: 1; }
     .sidenav-container nav.sidenav {
       display: flex;
       justify-content: space-around;
@@ -680,7 +682,9 @@ body {
   #container {
     width: 100%;
     overflow: unset;
-    background-attachment: initial; }
+    background-attachment: initial;
+    position: relative;
+    top: 56px; }
     #container #landing {
       max-height: 915px; }
       #container #landing h1 {
@@ -697,4 +701,17 @@ body {
         #container #landing .learn-more a {
           letter-spacing: 0.15rem;
           font-size: 11px;
-          padding: 17px 37.5px; } }
+          padding: 17px 37.5px; }
+    #container #who-we-are .sec {
+      height: 360px; }
+      #container #who-we-are .sec a.image-link {
+        width: 401px; }
+      #container #who-we-are .sec .description h1 {
+        padding: 0 0 21px 63px;
+        font-size: 1.99rem; }
+      #container #who-we-are .sec .description p {
+        padding: 0 0 34px 63px;
+        max-width: 778px;
+        font-size: 17px; }
+      #container #who-we-are .sec .description .learn-more {
+        padding: 0 0 55px 63px; } }
