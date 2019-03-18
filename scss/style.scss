@@ -796,7 +796,7 @@ body {
     position: relative;
     top: 56px;
     #landing {
-      max-height: 908px;
+      max-height: 915px;
       h1 {
         padding: 0px 0 32px 62px;
         font-size: 3rem;
@@ -846,9 +846,13 @@ body {
     }
     #what-we-do {
       #what-we-do-container {
-        padding: 72px 64px;
+        padding: 68px 64px;
+        h2 {
+          font-size: 31px;
+        }
         p {
           font-size: 17px;
+          padding: 22px 0 33px;
         }
       }
     }

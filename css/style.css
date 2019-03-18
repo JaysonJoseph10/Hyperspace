@@ -686,7 +686,7 @@ body {
     position: relative;
     top: 56px; }
     #container #landing {
-      max-height: 908px; }
+      max-height: 915px; }
       #container #landing h1 {
         padding: 0px 0 32px 62px;
         font-size: 3rem;
@@ -720,6 +720,9 @@ body {
           font-size: 11.2px;
           padding: 17px 37.5px; }
     #container #what-we-do #what-we-do-container {
-      padding: 72px 64px; }
+      padding: 68px 64px; }
+      #container #what-we-do #what-we-do-container h2 {
+        font-size: 31px; }
       #container #what-we-do #what-we-do-container p {
-        font-size: 17px; } }
+        font-size: 17px;
+        padding: 22px 0 33px; } }
