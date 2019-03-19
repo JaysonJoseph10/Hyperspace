@@ -845,14 +845,72 @@ body {
       }
     }
     #what-we-do {
-      #what-we-do-container {
-        padding: 68px 64px;
+      .what-we-do-container {
+        padding: 68px 64px 65px;
         h2 {
           font-size: 31px;
         }
         p {
           font-size: 17px;
           padding: 22px 0 33px;
+        }
+        .grid {
+          max-height: 590px;
+          .box {
+            padding: 48px 48px 0;
+            .left {
+              .icon {
+                width: 40px;
+                height: 40px;
+              }
+            }
+            .right {
+              padding-left: 24px;
+              h3 {
+                font-size: 20px;
+                padding-top: 10px;
+                letter-spacing: -0.02rem;
+              }
+              p {
+                font-size: 17px;
+              }
+            }
+          }
+        }
+        .learn-more {
+          padding: 30px 0 0;
+          a {
+            letter-spacing: 0.15rem;
+            font-size: 11px;
+            padding: 17px 37.5px;
+          }
+        }
+      }
+    }
+    #get-in-touch {
+      max-height: 662px;
+      .get-in-touch-container {
+        padding: 67px 64px 32px;
+        h2 {
+          font-size: 31px;
+        }
+        p {
+          padding: 21px 0 37px;
+          font-size: 17px;
+        }
+      }
+    }
+    #footer {
+      height: 144px;
+      .footer-container {
+        padding-left: 63px;
+        span {
+          font-size: 14px;
+          margin-right: 19px;
+          padding-left: 15px;
+          &:first-of-type {
+            padding: 0;
+          }
         }
       }
     }
