@@ -890,13 +890,86 @@ body {
     #get-in-touch {
       max-height: 662px;
       .get-in-touch-container {
-        padding: 67px 64px 32px;
+        padding: 67px 64px 30px;
         h2 {
           font-size: 31px;
         }
         p {
           padding: 21px 0 37px;
           font-size: 17px;
+        }
+        .form-address {
+          form {
+            padding-right: 32px;
+            .form-group {
+              .form-row:first-of-type {
+                margin-right: 24px;
+              }
+              .form-row {
+                margin-bottom: 26px;
+                label {
+                  font-size: 19px;
+                  padding-bottom: 16px;
+                }
+                input {
+                  width: 329px;
+                  height: 44px;
+                  padding: 15px;
+                }
+              }
+            }
+            .form-row {
+              margin-bottom: 30px;
+              label {
+                font-size: 20px;
+                padding-bottom: 17px;
+              }
+              textarea {
+                height: 166px;
+                padding: 13px 16px 15px;
+              }
+            }
+            .send-btn {
+              a {
+                letter-spacing: 0.15rem;
+                font-size: 11px;
+                padding: 17px 37.5px;
+              }
+            }
+          }
+          .address {
+            .group {
+              h3 {
+                font-size: 20px;
+                padding-bottom: 10px;
+              }
+              p {
+                font-size: 18px;
+                max-width: 281px;
+              }
+            }
+            .group:nth-child(2) {
+              padding-bottom: 31px;
+            }
+            .group:nth-child(3) {
+              padding-bottom: 31px;
+              a {
+                font-size: 18px;
+              }
+            }
+            .group:last-of-type {
+              padding-bottom: 49px;
+              h3 {
+                padding-bottom: 17px;
+              }
+              .social-icons {
+                max-width: 131px;
+                a i {
+                  font-size: 14px;
+                }
+              }
+            }
+          }
         }
       }
     }
