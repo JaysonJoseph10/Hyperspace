@@ -15,6 +15,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
   nav.sidenav {
     text-align: right;
     width: 288px;
@@ -766,7 +767,7 @@ body {
     nav.sidenav {
       display: flex;
       justify-content: space-around;
-      width: 36.8%;
+      width: 468px;
       padding: 0;
       height: 100%;
       a:first-of-type {
