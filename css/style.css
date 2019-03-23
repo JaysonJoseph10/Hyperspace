@@ -471,6 +471,7 @@ body {
           padding-right: 53px; }
           @media only screen and (max-width: 1680px) {
             #container #get-in-touch .get-in-touch-container .form-address form {
+              width: 66.466667%;
               padding-right: 35px; } }
           #container #get-in-touch .get-in-touch-container .form-address form .form-group {
             display: flex;
@@ -523,7 +524,7 @@ body {
             #container #get-in-touch .get-in-touch-container .form-address form .form-row label {
               display: block;
               font-family: "Source Sans Pro", sans-serif;
-              font-weight: 600;
+              font-weight: 700;
               font-size: 26px;
               padding-bottom: 23px; }
               @media only screen and (max-width: 1680px) {
@@ -770,7 +771,6 @@ body {
               font-size: 19px;
               padding-bottom: 16px; }
             #container #get-in-touch .get-in-touch-container .form-address form .form-group .form-row input {
-              width: 329px;
               height: 44px;
               padding: 15px; }
           #container #get-in-touch .get-in-touch-container .form-address form .form-row {

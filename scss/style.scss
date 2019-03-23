@@ -538,6 +538,7 @@ body {
           font-family: $font-stack;
           padding-right: 53px;
           @media #{$bp-tablet} {
+            width: 66.466667%;
             padding-right: 35px;
           }
           .form-group {
@@ -599,7 +600,7 @@ body {
             label {
               display: block;
               font-family: $font-stack;
-              font-weight: 600;
+              font-weight: 700;
               font-size: 26px;
               padding-bottom: 23px;
               @media #{$bp-tablet} {
@@ -918,7 +919,7 @@ body {
                   padding-bottom: 16px;
                 }
                 input {
-                  width: 329px;
+                  // width: 329px;
                   height: 44px;
                   padding: 15px;
                 }
