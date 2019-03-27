@@ -815,3 +815,7 @@ body {
           padding-left: 15px; }
           #container #footer .footer-container span:first-of-type {
             padding: 0; } }
+
+@media only screen and (max-width: 980px) {
+  #container #landing h1 {
+    font-size: 2.5rem; } }
