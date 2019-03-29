@@ -4,7 +4,7 @@ $font-stack: 'Source Sans Pro', sans-serif;
 $bp-tablet: 'only screen and (max-width: 1680px)';
 
 body {
-   overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 .sidenav-container {
@@ -807,8 +807,7 @@ body {
       h1 {
         padding: 0px 0 32px 62px;
         font-size: 3rem;
-        // margin-top: 53px;
-        margin-top: 17px;
+        margin-top: 60px;
       }
       p {
         padding: 0px 0 40px 62px;
@@ -863,8 +862,7 @@ body {
           padding: 22px 0 33px;
         }
         .grid {
-          // max-height: 590px;
-          max-height: 740px;
+          max-height: 590px;
           .box {
             padding: 48px 48px 0;
             .left {
@@ -910,6 +908,7 @@ body {
         .form-address {
           form {
             padding-right: 32px;
+            width: 63.766667%;
             .form-group {
               .form-row:first-of-type {
                 margin-right: 24px;

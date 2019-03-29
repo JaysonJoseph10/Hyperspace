@@ -695,7 +695,7 @@ body {
       #container #landing h1 {
         padding: 0px 0 32px 62px;
         font-size: 3rem;
-        margin-top: 17px; }
+        margin-top: 60px; }
       #container #landing p {
         padding: 0px 0 40px 62px;
         font-size: 22px;
@@ -732,7 +732,7 @@ body {
         font-size: 17px;
         padding: 22px 0 33px; }
       #container #what-we-do .what-we-do-container .grid {
-        max-height: 740px; }
+        max-height: 590px; }
         #container #what-we-do .what-we-do-container .grid .box {
           padding: 48px 48px 0; }
           #container #what-we-do .what-we-do-container .grid .box .left .icon {
@@ -762,7 +762,8 @@ body {
           padding: 21px 0 37px;
           font-size: 17px; }
         #container #get-in-touch .get-in-touch-container .form-address form {
-          padding-right: 32px; }
+          padding-right: 32px;
+          width: 63.766667%; }
           #container #get-in-touch .get-in-touch-container .form-address form .form-group .form-row:first-of-type {
             margin-right: 24px; }
           #container #get-in-touch .get-in-touch-container .form-address form .form-group .form-row {
