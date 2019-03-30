@@ -828,7 +828,7 @@ body {
       .sec {
         height: 360px;
         a.image-link {
-          width: 401px;
+          width: 400px;
         }
         .description {
           h1 {
@@ -836,7 +836,7 @@ body {
             font-size: 1.99rem;
           }
           p {
-            padding: 0 0 34px 63px;
+            padding: 0 41px 34px 63px;
             max-width: 778px;
             font-size: 17px;
           }
@@ -862,9 +862,10 @@ body {
           padding: 22px 0 33px;
         }
         .grid {
-          max-height: 590px;
+          max-height: unset;
+          height: unset;
           .box {
-            padding: 48px 48px 0;
+            padding: 48px 48px 32px;
             .left {
               .icon {
                 width: 40px;

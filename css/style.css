@@ -710,12 +710,12 @@ body {
     #container #who-we-are .sec {
       height: 360px; }
       #container #who-we-are .sec a.image-link {
-        width: 401px; }
+        width: 400px; }
       #container #who-we-are .sec .description h1 {
         padding: 0 0 21px 63px;
         font-size: 1.99rem; }
       #container #who-we-are .sec .description p {
-        padding: 0 0 34px 63px;
+        padding: 0 41px 34px 63px;
         max-width: 778px;
         font-size: 17px; }
       #container #who-we-are .sec .description .learn-more {
@@ -732,9 +732,10 @@ body {
         font-size: 17px;
         padding: 22px 0 33px; }
       #container #what-we-do .what-we-do-container .grid {
-        max-height: 590px; }
+        max-height: unset;
+        height: unset; }
         #container #what-we-do .what-we-do-container .grid .box {
-          padding: 48px 48px 0; }
+          padding: 48px 48px 32px; }
           #container #what-we-do .what-we-do-container .grid .box .left .icon {
             width: 40px;
             height: 40px; }
