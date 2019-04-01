@@ -1023,6 +1023,16 @@ body {
           height: 320px;
           flex-direction: column;
           justify-content: center;
+          p {
+            max-width: unset;
+          }
+        }
+      }
+    }
+    #what-we-do {
+      .what-we-do-container {
+        .grid {
+          grid-template-columns: 1fr;
         }
       }
     }
