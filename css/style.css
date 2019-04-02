@@ -877,4 +877,55 @@ body {
         padding: 0 32px 32px 32px;
         font-size: 17px; }
       #container #landing .learn-more {
-        padding: 2px 0 32px 32px; } }
+        padding: 2px 0 32px 32px; }
+    #container #who-we-are .sec .description {
+      max-height: 271px; }
+      #container #who-we-are .sec .description h1 {
+        padding: 0 0 13px 32px;
+        font-size: 1.39rem;
+        font-weight: 700;
+        margin-top: 22px; }
+      #container #who-we-are .sec .description p {
+        padding: 0 0 34px 32px; }
+      #container #who-we-are .sec .description .learn-more {
+        padding: 0 0 21px 32px; }
+    #container #what-we-do .what-we-do-container {
+      padding: 51px 32px 53px; }
+      #container #what-we-do .what-we-do-container h2 {
+        font-size: 22px;
+        font-weight: 700; }
+      #container #what-we-do .what-we-do-container p {
+        padding: 16px 0 34px; }
+      #container #what-we-do .what-we-do-container .grid {
+        grid-template-rows: repeat(6, 162px); }
+        #container #what-we-do .what-we-do-container .grid .box {
+          padding: 32px 24px 0; }
+          #container #what-we-do .what-we-do-container .grid .box .right h3 {
+            font-size: 19px;
+            letter-spacing: -0.04rem;
+            padding-top: 9px; }
+          #container #what-we-do .what-we-do-container .grid .box .right p {
+            padding: 12px 0 18px; }
+    #container #get-in-touch .get-in-touch-container {
+      padding: 51px 32px 30px; }
+      #container #get-in-touch .get-in-touch-container h2 {
+        font-size: 22px;
+        font-weight: 700; }
+      #container #get-in-touch .get-in-touch-container p {
+        padding: 14px 0 36px;
+        line-height: 1.7; }
+      #container #get-in-touch .get-in-touch-container .form-address .address {
+        margin: 48px 0;
+        padding: 50px 0; }
+        #container #get-in-touch .get-in-touch-container .form-address .address .group h3 {
+          font-size: 18px; }
+        #container #get-in-touch .get-in-touch-container .form-address .address .group p {
+          line-height: 1.6; }
+        #container #get-in-touch .get-in-touch-container .form-address .address .group:last-of-type h3 {
+          padding-bottom: 13px; }
+    #container #footer {
+      height: 112px; }
+      #container #footer .footer-container {
+        padding-left: 31px; }
+        #container #footer .footer-container span:last-of-type {
+          font-size: 15px; } }
