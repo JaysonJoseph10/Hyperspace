@@ -580,7 +580,10 @@ body {
                   padding-top: 2px; } }
             #container #get-in-touch .get-in-touch-container .form-address .address .group .social-icons a i {
               font-size: 22px;
-              color: rgba(255, 255, 255, 0.55); }
+              color: rgba(255, 255, 255, 0.55);
+              transition: .2s; }
+              #container #get-in-touch .get-in-touch-container .form-address .address .group .social-icons a i:hover {
+                color: white; }
               @media only screen and (max-width: 1680px) {
                 #container #get-in-touch .get-in-touch-container .form-address .address .group .social-icons a i {
                   font-size: 16px; } }
@@ -823,7 +826,8 @@ body {
     font-size: 3.1rem;
     margin-top: 57px; }
   #container #landing p {
-    max-width: 100%; }
+    max-width: 100%;
+    padding: 0px 20px 40px 62px; }
   #container #who-we-are .sec {
     display: block;
     height: unset; }
@@ -840,7 +844,37 @@ body {
   #container #what-we-do .what-we-do-container .grid {
     grid-template-columns: 1fr;
     grid-template-rows: 195px 195px 195px 195px 195px 195px; }
-  #container #get-in-touch .get-in-touch-container .form-address {
-    display: block; }
-    #container #get-in-touch .get-in-touch-container .form-address .form {
-      width: 100%; } }
+    #container #what-we-do .what-we-do-container .grid .box:nth-child(even) {
+      border-left: none; }
+    #container #what-we-do .what-we-do-container .grid .box .right p {
+      max-width: unset; }
+  #container #get-in-touch {
+    max-height: 1171px; }
+    #container #get-in-touch .get-in-touch-container .form-address {
+      display: block; }
+      #container #get-in-touch .get-in-touch-container .form-address form {
+        width: 100%;
+        padding: 0; }
+      #container #get-in-touch .get-in-touch-container .form-address .address {
+        border-left: none;
+        border-top: 1px solid rgba(255, 255, 255, 0.15);
+        padding: 64px 0;
+        margin: 67px 0; } }
+
+@media only screen and (max-width: 736px) {
+  .sidenav-container {
+    display: none; }
+  #container {
+    top: 0;
+    background-size: 100%; }
+    #container #landing {
+      max-height: 360px; }
+      #container #landing h1 {
+        padding: 0 0 24px 32px;
+        font-size: 2.2rem;
+        margin-top: 34px; }
+      #container #landing p {
+        padding: 0 32px 32px 32px;
+        font-size: 17px; }
+      #container #landing .learn-more {
+        padding: 2px 0 32px 32px; } }
