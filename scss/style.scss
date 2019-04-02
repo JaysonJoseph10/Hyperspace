@@ -1033,6 +1033,17 @@ body {
       .what-we-do-container {
         .grid {
           grid-template-columns: 1fr;
+          grid-template-rows: 195px 195px 195px 195px 195px 195px;
+        }
+      }
+    }
+    #get-in-touch {
+      .get-in-touch-container {
+        .form-address {
+          display: block;
+          .form {
+            width: 100%;
+          }
         }
       }
     }

@@ -838,4 +838,9 @@ body {
       #container #who-we-are .sec .description p {
         max-width: unset; }
   #container #what-we-do .what-we-do-container .grid {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr;
+    grid-template-rows: 195px 195px 195px 195px 195px 195px; }
+  #container #get-in-touch .get-in-touch-container .form-address {
+    display: block; }
+    #container #get-in-touch .get-in-touch-container .form-address .form {
+      width: 100%; } }
