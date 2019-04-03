@@ -22,6 +22,9 @@ body {
     @media #{$bp-tablet} {
       width: 220px;
     }
+    a.active {
+      background-color: rgba(0,0,0,.5);
+    }
     a {
       text-transform: uppercase;
       font-size: 14.5px;
@@ -1105,7 +1108,7 @@ body {
             margin-top: 22px;
           }
           p {
-            padding: 0 0 34px 32px;
+            padding: 0 28px 34px 32px;
           }
           .learn-more {
             padding: 0 0 21px 32px;
@@ -1185,5 +1188,107 @@ body {
   }
 }
 @media only screen and (max-width: 480px) {
-  
+  #container {
+    #landing {
+      max-height: 388px;
+      h1 {
+        padding: 0 0 23px 32px;
+        margin-top: 38px;
+      }
+      p {
+        line-height: 1.7;
+        padding: 1px 32px 30px 32px;
+      }
+      .learn-more {
+        padding: 2px 32px 32px 32px;
+        a {
+          width: 100%;
+          max-width: initial;
+          text-align: center;
+          padding: 17.5px 37.5px;
+        }
+      }
+    }
+    #who-we-are {
+      .sec {
+        .description {
+          max-height: 300px;
+          .learn-more {
+            padding: 0 32px 21px 32px;
+            a {
+              width: 100%;
+              max-width: initial;
+              text-align: center;
+              padding: 17.5px 37.5px;
+            }
+          }
+        }
+      }
+    }
+    #what-we-do {
+      .what-we-do-container{
+        .grid {
+          grid-template-rows: repeat(6, 242px);
+          .box {
+            display: block;
+            .right {
+              padding: 0;
+              h3 {
+                padding-top: 22px;
+              }
+            }
+          }
+        }
+        .learn-more {
+          a {
+            width: 100%;
+            max-width: initial;
+            text-align: center;
+            padding: 17.5px 37.5px;
+          }
+        }
+      }
+    }
+    #get-in-touch {
+      max-height: 1270px;
+      .get-in-touch-container {
+        .form-address {
+          form {
+            .form-group {
+              display: block;
+              .form-row {
+                width: 100%;
+              }
+            }
+            .send-btn {
+              a {
+                width: 100%;
+                max-width: initial;
+                text-align: center;
+                padding: 17.5px 37.5px;
+              }
+            }
+          }
+          .address {
+            margin: 48px 0 0;
+          }
+        }
+      }
+    }
+    #footer {
+      height: 169px;
+      .footer-container {
+        justify-content: center;
+        flex-direction: column;
+        align-items: flex-start;
+        span {
+          padding-left: 0;
+          border: none;
+          &:nth-of-type(2) {
+            padding: 13px 0;
+          }
+        }
+      }
+    }
+  }
 }

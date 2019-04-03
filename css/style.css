@@ -17,6 +17,8 @@ body {
     @media only screen and (max-width: 1680px) {
       .sidenav-container nav.sidenav {
         width: 220px; } }
+    .sidenav-container nav.sidenav a.active {
+      background-color: rgba(0, 0, 0, 0.5); }
     .sidenav-container nav.sidenav a {
       text-transform: uppercase;
       font-size: 14.5px;
@@ -886,7 +888,7 @@ body {
         font-weight: 700;
         margin-top: 22px; }
       #container #who-we-are .sec .description p {
-        padding: 0 0 34px 32px; }
+        padding: 0 28px 34px 32px; }
       #container #who-we-are .sec .description .learn-more {
         padding: 0 0 21px 32px; }
     #container #what-we-do .what-we-do-container {
@@ -929,3 +931,66 @@ body {
         padding-left: 31px; }
         #container #footer .footer-container span:last-of-type {
           font-size: 15px; } }
+
+@media only screen and (max-width: 480px) {
+  #container #landing {
+    max-height: 388px; }
+    #container #landing h1 {
+      padding: 0 0 23px 32px;
+      margin-top: 38px; }
+    #container #landing p {
+      line-height: 1.7;
+      padding: 1px 32px 30px 32px; }
+    #container #landing .learn-more {
+      padding: 2px 32px 32px 32px; }
+      #container #landing .learn-more a {
+        width: 100%;
+        max-width: initial;
+        text-align: center;
+        padding: 17.5px 37.5px; }
+  #container #who-we-are .sec .description {
+    max-height: 300px; }
+    #container #who-we-are .sec .description .learn-more {
+      padding: 0 32px 21px 32px; }
+      #container #who-we-are .sec .description .learn-more a {
+        width: 100%;
+        max-width: initial;
+        text-align: center;
+        padding: 17.5px 37.5px; }
+  #container #what-we-do .what-we-do-container .grid {
+    grid-template-rows: repeat(6, 242px); }
+    #container #what-we-do .what-we-do-container .grid .box {
+      display: block; }
+      #container #what-we-do .what-we-do-container .grid .box .right {
+        padding: 0; }
+        #container #what-we-do .what-we-do-container .grid .box .right h3 {
+          padding-top: 22px; }
+  #container #what-we-do .what-we-do-container .learn-more a {
+    width: 100%;
+    max-width: initial;
+    text-align: center;
+    padding: 17.5px 37.5px; }
+  #container #get-in-touch {
+    max-height: 1270px; }
+    #container #get-in-touch .get-in-touch-container .form-address form .form-group {
+      display: block; }
+      #container #get-in-touch .get-in-touch-container .form-address form .form-group .form-row {
+        width: 100%; }
+    #container #get-in-touch .get-in-touch-container .form-address form .send-btn a {
+      width: 100%;
+      max-width: initial;
+      text-align: center;
+      padding: 17.5px 37.5px; }
+    #container #get-in-touch .get-in-touch-container .form-address .address {
+      margin: 48px 0 0; }
+  #container #footer {
+    height: 169px; }
+    #container #footer .footer-container {
+      justify-content: center;
+      flex-direction: column;
+      align-items: flex-start; }
+      #container #footer .footer-container span {
+        padding-left: 0;
+        border: none; }
+        #container #footer .footer-container span:nth-of-type(2) {
+          padding: 13px 0; } }
