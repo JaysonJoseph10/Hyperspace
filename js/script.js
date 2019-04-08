@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
   $('nav.sidenav a').scrollex({
     enter: function() {
       $(this).addClass('active')
@@ -9,7 +10,6 @@ $(document).ready(function(){
     }
   })
 
-
   $("nav.sidenav a").on('click', function(event) {
     if (this.hash !== "") {
       event.preventDefault()
@@ -17,10 +17,10 @@ $(document).ready(function(){
 
       $('#container').animate({
         scrollTop: $(hash).offset().top
+        // console.log(scrollTop - hash)
       }, 800, function(){
-        window.location.hash = hash
+        // window.location.hash = hash
       });
     }
-    return false
   });
 });

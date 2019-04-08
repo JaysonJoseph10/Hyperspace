@@ -78,6 +78,9 @@ body {
       @media only screen and (max-width: 1680px) {
         .sidenav-container nav.sidenav a::after {
           transform: translate3d(220px, 0, 0); } }
+    .sidenav-container nav.sidenav a.active ::after,
+    .sidenav-container nav.sidenav a.active ::before {
+      height: 20px; }
 
 #container {
   background-image: url("../imgs/intro.svg");
