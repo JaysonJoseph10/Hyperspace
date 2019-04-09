@@ -92,6 +92,10 @@ body {
         transform: translate3d(220px,0,0);
       }
     }
+    a.active:first-of-type::before,
+    a.active:last-of-type::before,
+    a.active:first-of-type::after,
+    a.active:last-of-type::after
     a.active ::after,
     a.active ::before {
       height: 20px;
