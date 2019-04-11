@@ -1,26 +1,13 @@
 $(document).ready(function(){
-
-  $('nav.sidenav a').scrollex({
+  $('section#who-we-are').scrollex({
     enter: function() {
-      $(this).addClass('active')
+      console.log(1)
+      $('nav.sidenav a').addClass('active')
     }
   }, {
     leave: function() {
       $(this).removeClass('active')
     }
   })
-
-  $("nav.sidenav a").on('click', function(event) {
-    if (this.hash !== "") {
-      event.preventDefault()
-      var hash = $(this.hash)
-
-      $('#container').animate({
-        scrollTop: $(hash).offset().top
-        // console.log(scrollTop - hash)
-      }, 800, function(){
-        // window.location.hash = hash
-      });
-    }
   });
 });
