@@ -16,14 +16,12 @@ body {
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  position: fixed;
   nav.sidenav {
     text-align: right;
     width: 288px;
     @media #{$bp-tablet} {
       width: 220px;
-    }
-    a.active {
-      background-color: rgba(0,0,0,.5);
     }
     a {
       text-transform: uppercase;
@@ -92,23 +90,9 @@ body {
         transform: translate3d(220px,0,0);
       }
     }
-    a.active:first-of-type::before,
-    a.active:last-of-type::before,
-    a.active:first-of-type::after,
-    a.active:last-of-type::after
-    a.active ::after,
-    a.active ::before {
-      content: '';
-      width: 100%;
-      height: 3px;
-      background-image: linear-gradient(to right, #3c2c62, #3c2c62);
-      display: block;
-      transition: .3s;
-      z-index: 5;
-      opacity: 1;
-      position: absolute;
-      bottom: 0;
-      z-index: 1;
+    a.active.first::after,
+    a.active.second::after {
+      transform: translate3d(0,0,0);
     }
   }
 }
@@ -121,8 +105,11 @@ body {
   background-size: 100% 100%;
   width: calc(100% - 396px);
   height: 100vh;
-  float: left;
-  overflow-y: scroll;
+  display: inline-block;
+  position: relative;
+  left: 396px;
+  // float: left;
+  // overflow-y: scroll;
   #landing {
     height: 100vh;
     display: flex;
