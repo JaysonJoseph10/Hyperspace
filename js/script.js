@@ -1,21 +1,19 @@
 $(function(){
   $('nav.sidenav a.first').addClass('active')
+
   $('#landing').scrollex({
-    top: '-1px',
-    bottom: '1px',
+    mode: 'middle',
     enter: function() {
       $('nav.sidenav a.first').addClass('active')
-    },
+  },
     leave: function() {
       $('nav.sidenav a.first').removeClass('active')
     }
   })
   $('#who-we-are').scrollex({
     mode: 'middle',
-    // top: '1px',
-    // bottom: '1px',
     enter: function() {
-      $('nav.sidenav a.first').removeClass('active')
+      // $('nav.sidenav a').removeClass('active')
       $('nav.sidenav a.second').addClass('active')
     },
     leave: function() {
@@ -24,18 +22,37 @@ $(function(){
   })
   $('#what-we-do').scrollex({
     mode: 'middle',
-    // top: '1px',
-    // bottom: '1px',
     enter: function() {
-      $('nav.sidenav a').removeClass('active')
+      // $('nav.sidenav a').removeClass('active')
       $('nav.sidenav a.third').addClass('active')
     },
     leave: function() {
       $('nav.sidenav a.third').removeClass('active')
     }
   })
-  
-});
-var section1 = document.querySelector('#who-we-are')
+  $('#get-in-touch').scrollex({
+    mode: 'middle',
+    enter: function() {
+      $('nav.sidenav a.fourth').addClass('active')
+    },
+    leave: function() {
+      $('nav.sidenav a.fourth').removeClass('active')
+    }
+  })
 
-section1.getBoundingClientRect()
+  $('nav.sidenav a').on('click', function(event) {
+    $('nav.sidenav a').removeClass('active')
+    $(this).addClass('active')
+
+    if (this.hash !== '') {
+      var id = this.hash
+      event.preventDefault()
+
+      $('html').animate({
+        scrollTop: $(id).offset().top
+      }, 1000, function(){
+        window.location.hash = id
+      })
+    }
+  })
+})

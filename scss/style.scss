@@ -90,8 +90,13 @@ body {
         transform: translate3d(220px,0,0);
       }
     }
+    a.active {
+      color: white;
+    }
     a.active.first::after,
-    a.active.second::after {
+    a.active.second::after,
+    a.active.third::after,
+    a.active.fourth::after {
       transform: translate3d(0,0,0);
     }
   }
@@ -771,6 +776,7 @@ body {
   }
   #container {
     width: calc(100% - 312px);
+    left: 312px;
   }
 }
 @media only screen and (max-width: 1280px) {
@@ -814,6 +820,7 @@ body {
     background-attachment: initial;
     position: relative;
     top: 56px;
+    left: 0;
     #landing {
       max-height: 915px;
       h1 {
